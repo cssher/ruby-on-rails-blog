@@ -1,24 +1,5 @@
-# README
+A simple Ruby on Rails blog mock up to test my first encounter with RoR development.
+Learnt the basics of MVC framework for web application development.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Note: Used MySql2 as databse as local DB in development.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
