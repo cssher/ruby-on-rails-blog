@@ -1,0 +1,16 @@
+<div class="container">
+<p>
+  <strong><%= comment.commenter %>'s
+  Comment: <br>
+</strong>
+  <span class="comments"><%= comment.body %></span>
+  
+</p>
+ 
+
+ 
+<p class="deleteCom">
+  <%= link_to 'Delete Comment', [comment.article, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p></div>

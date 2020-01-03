@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.articleMain{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    color: green;
+
+}
+
+strong{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    color: darkcyan;
+}
+.comments{
+    color: royalblue;
+    font-family: 'Arvo', serif;
+}
+.deleteCom{
+    font-family: 'Arvo', serif;
+    border: 1px solid royalblue;
+    border-radius: 15px;
+    padding: 5px;
+}

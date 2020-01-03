@@ -1,0 +1,22 @@
+<p class="articleMain">
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+ 
+<p class="articleMain">
+  <strong>Article:</strong>
+  <%= @article.text %>
+</p>
+ 
+<h4 class="defCom">Comments</h4>
+<%= render @article.comments %>
+ <h1>
+ </h1>
+<h4 class="defCom">Add a comment:</h4>
+
+
+<div class="commentBlock"><%= render 'comments/form' %></div>
+
+ <div class="editback">
+ <%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %></div>

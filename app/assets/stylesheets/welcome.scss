@@ -1,0 +1,43 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+
+.header{
+    text-align: center;
+    color: cornflowerblue;
+    font-family: 'Pacifico', cursive;
+}
+
+.linkArticle{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Arvo', serif;
+    
+}
+a:link { 
+    text-decoration:none;
+}
+a{
+    color: rgba(247, 141, 3, 0.979);
+}
+a:hover{
+color: crimson;
+}
+
+.body{
+    background-size: cover;
+    background-color: rgb(219, 217, 72);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 10px coral
+}   
+body{
+   background-color: lightgreen;
+}
+

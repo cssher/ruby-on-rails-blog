@@ -1,0 +1,77 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+
+.articleHeader{
+    text-align: center;
+    color: cornflowerblue;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    font-size: 3.5em;
+}
+
+.newArticleLink {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Arvo', serif;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+table{
+     font-family: 'Arvo', serif;
+    font-size: x-large;
+    font-weight: 800;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+  
+}
+td{
+    border: 1px solid coral;  
+    color: #03ac5d;
+    padding: 15px;
+}
+input{
+    border-radius: 20px;
+    box-shadow: cornflowerblue;
+    padding: 3px;
+    outline: none;
+}
+
+textarea{
+    border-radius: 20px;
+    box-shadow: cornflowerblue;
+    padding: 15px;
+    color: darkcyan;
+    outline: none;
+}
+
+.defCom{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Arvo', serif;
+    color: navy;
+}
+
+.commentBlock{
+    margin-left: 200px;
+    font-family: 'Arvo', serif;
+    color: midnightblue;
+
+}
+
+.editback{
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 20px;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+}
